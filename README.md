@@ -1,8 +1,6 @@
 # Cryptocurrencies
 ### An analysis using unsupervised Machine Learning algorithm to discover unknown patterns.
 
-![bannerimage](https://github.com/amylio/Cryptocurrencies/blob/main/Resources/Images/BannerImage.jpeg)
-
 ## Overview
 
 The purpose of this analysis was to use data from [CryptoCompare](https://min-api.cryptocompare.com/data/all/coinlist) to provide a report and visualization of currently traded cryptocurrencies that can be grouped together to create a new classification system. This report would be used to help **Accountability Accounting** offer a new investment portfolio in the exciting world of cryptocurrency to its customers. 
@@ -21,15 +19,15 @@ In this analysis we learned and applied:
 
 The original dataset contained 1,252 entries, however only 1,144 cryptocurrencies were currently trading. The data was further munged to remove `null values` and only leave cryptocurrencies that had a total number of mined coins greater than 0. The final results identified 532 tradable cryptocurrencies. 
 
-![cryptotable](https://github.com/amylio/Cryptocurrencies/blob/main/Resources/Images/CryptoTable.png)
+![cryptotable](https://github.com/ayaakoub/Cryptocurrencies/blob/main/Resources/Images/CryptoTable.png)
 
 The **Elbow Curve** method showed the slope at 4. This is the number of clusters that was used for the `KMeans` algorithm.
 
-![Elbow](https://github.com/amylio/Cryptocurrencies/blob/main/Resources/Images/ElbowCurve.png)
+![Elbow](https://github.com/ayaakoub/Cryptocurrencies/blob/main/Resources/Images/ElbowCurve.png)
 
 The clusters are plotted in a 3D scatter plot for visualization.
 
-![3D](https://github.com/amylio/Cryptocurrencies/blob/main/Resources/Images/3DGraph.png)
+![3D](https://github.com/ayaakoub/Cryptocurrencies/blob/main/Resources/Images/3DGraph.png)
 
 ## Resources
 * Dataset from [CryptoCompare](https://min-api.cryptocompare.com/data/all/coinlist)
